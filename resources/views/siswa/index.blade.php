@@ -13,7 +13,7 @@
     <div class="container mt-5">
         <div class="row">
             <div class="col-md-12">
-                <div class="card border-2 shadow rounded">
+                <div class="card border-0 shadow rounded">
                    
                     <div class="card-body">
                         <div class="text-center">
@@ -40,7 +40,7 @@
                               @forelse ($bolos as $bolos)
                                 <tr>
                                     <td class="text-center">
-                                        <img src="{{  asset('Storage/image/'.$bolos->image) }}" class="rounded" style="width: 100px">
+                                        <img src="{{  asset('Storage/image/'.$bolos->image) }}" class="rounded" style="width: 150px">
                                     </td>
                                     <td>{{ $bolos->nama }}</td>
                                     <td>{{ $bolos->kelas }}</td>
