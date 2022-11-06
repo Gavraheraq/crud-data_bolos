@@ -11,7 +11,7 @@ class BolosController extends Controller
     public function index()
     {
         //get bolos
-        $bolos = Bolos::latest()->paginate(5);
+        $bolos = bolos::latest()->paginate(5);
 
         //render view with bolos
         return view('siswa.index', compact('bolos'));
@@ -90,7 +90,7 @@ class BolosController extends Controller
             $image->storeAs('image', $image->hashName());
 
             //delete old image
-            Storage::delete('image'.$bolos->image);
+            Storage::delete('image'.$siswa->image);
 
             //update bolos with new image
             $siswa->update([
