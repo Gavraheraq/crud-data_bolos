@@ -81,7 +81,7 @@ class SesionController extends Controller
                 ];
                 
                 if(Auth::attempt($infologin)){
-                    return redirect('sesi/index.blade.php')->with('success', 'Silahkan Login');
+                    return redirect('sesi')->with('success', 'Silahkan Login');
                 }else{
                     return redirect('sesi')->withErrors('Username dan Password yang dimasukkan tidak valid');
                 }
