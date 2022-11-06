@@ -16,13 +16,13 @@
                 <div class="card border-2 shadow rounded">
                    
                     <div class="card-body">
+                        <div class="text-center">
+                            <h1>Data Siswa Bolos</h1>
+                        </div>
                         <div class="float-right">
                             <a href="/sesi" class="btn btn-md btn-danger mb-3">Logout</a>     
                         </div>
                         <a href="{{ route('siswa.create') }}" class="btn btn-md btn-success mb-3">Add Data</a>
-                        <div class="text-center">
-                            <h1>Data Siswa Bolos</h1>
-                        </div>
                             
                         <table class="table table-bordered">
                             <thead>
