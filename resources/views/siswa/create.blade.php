@@ -32,7 +32,7 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">NAMA</label>
-                                <input type="text" class="form-control @error('nama') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('nama') is-invalid @enderror" name="nama" value="{{ old('nama') }}" placeholder="Masukkan Nama">
                             
                                 <!-- error message untuk nama -->
                                 @error('nama')
@@ -44,7 +44,7 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">KELAS</label>
-                                <input type="text" class="form-control @error('kelas') is-invalid @enderror" name="kelas" value="{{ old('kelas') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('kelas') is-invalid @enderror" name="kelas" value="{{ old('kelas') }}" placeholder="Masukkan kelas">
                             
                                 <!-- error message untuk kelas -->
                                 @error('kelas')
@@ -56,7 +56,7 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">ABSEN</label>
-                                <input type="text" class="form-control @error('absen') is-invalid @enderror" name="absen" value="{{ old('absen') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('absen') is-invalid @enderror" name="absen" value="{{ old('absen') }}" placeholder="Masukkan absen">
                             
                                 <!-- error message untuk absen -->
                                 @error('absen')
@@ -68,7 +68,7 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">ALAMAT</label>
-                                <input type="text" class="form-control @error('alamat') is-invalid @enderror" name="alamat" value="{{ old('alamat') }}" placeholder="Masukkan Judul Post">
+                                <input type="text" class="form-control @error('alamat') is-invalid @enderror" name="alamat" value="{{ old('alamat') }}" placeholder="Masukkan alamat">
                             
                                 <!-- error message untuk alamat -->
                                 @error('alamat')
